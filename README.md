@@ -1,6 +1,11 @@
 # tinynac
-Tiny Nac training Repository
 
-Needs to be populated, as of now code available in: https://github.com/sciapponi/anonymization_tests
+## Install requirements
+```shell
+    pip install -r requirements.txt
+```
 
-To check it -> Experiment_Phi.py
+## Train the model
+```
+   python3 experiment_phi.py --config-name=your-config-name.yaml 
+```
